@@ -57,3 +57,25 @@ html {
   font-weight: 400;
   font-style: normal;
 }
+
+#main_navigation {
+  display: flex;
+  background-color: teal;
+  list-style-type: none;
+  border-radius: 0.315rem;
+}
+
+#main_navigation li{
+  display: inline-block;
+}
+
+#main_navigation a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+}
+
+#main_navigation a:hover {
+  background-color: white;
+  color: teal;
+}
